@@ -4,12 +4,12 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "rg" {
-    name     = "hello-tf-azure-rg"
+    name     = "hello-tf-azure-rincy"
     location = "francecentral"
 }
 
 resource "azurerm_resource_group" "rg2" {
-    name     = "hello-tf-azure-2-rg"
+    name     = "hello-tf-azure-2-rincy"
     location = "francecentral"
 }
 
